@@ -1,0 +1,38 @@
+{
+  "name": "chalk-ts",
+  "version": "0.1.0",
+  "description": "给命令行中的字符串添加颜色",
+  "main": "./out/src/index.js",
+  "files": [
+    "./out",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "ava ./out/test/index.js --tap",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nice-body/chalk-ts.git"
+  },
+  "keywords": [
+    "command",
+    "terminal",
+    "color"
+  ],
+  "author": "nicebody <neone2011@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nice-body/chalk-ts/issues"
+  },
+  "homepage": "https://github.com/nice-body/chalk-ts#readme",
+  "devDependencies": {
+    "@types/ansi-styles": "^2.0.30",
+    "@types/escape-string-regexp": "0.0.30",
+    "@types/node": "^6.0.45",
+    "ava": "^0.16.0",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}
